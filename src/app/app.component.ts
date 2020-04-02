@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hola-mundo';
+  mensaje= 'Curso de Angular';
+  nombre= 'Hady';
+  getNombre(){
+    return this.nombre;
+  }
 }
